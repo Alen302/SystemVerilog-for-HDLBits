@@ -1,4 +1,4 @@
-module step_one (
+module top_module (
     output var logic high
 );
 

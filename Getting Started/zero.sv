@@ -1,4 +1,4 @@
-module zero (
+module top_module (
     output var logic zero 
 );
     
