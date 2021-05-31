@@ -11,7 +11,7 @@ module top_module (
         down = 1'b0;
         right = 1'b0;
         up = 1'b0;
-        unique case(scancode)
+        unique0 case(scancode)
             16'he06b:begin
                 left = 1'b1;
             end
