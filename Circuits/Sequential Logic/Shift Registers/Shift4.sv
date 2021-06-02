@@ -4,8 +4,7 @@ module top_module(
     input logic load,
     input logic ena,
     input logic [3:0] data,
-    output logic [3:0] q
-    ); 
+    output logic [3:0] q ); 
     
     always_ff@(posedge clk or posedge areset) begin
         if(areset)       q <= '0 ;
