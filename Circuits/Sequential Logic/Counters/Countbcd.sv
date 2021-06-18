@@ -12,7 +12,7 @@ module top_module (
     always@(posedge clk)begin
         if(reset)               ones <= 4'd0;
         else if(ones == 4'd9)   ones <= 4'd0;
-        else                    ones <= ones + 4'd1;
+        else                    ones <= ones + 4'd1 ;
     end
     
     always@(posedge clk)begin
