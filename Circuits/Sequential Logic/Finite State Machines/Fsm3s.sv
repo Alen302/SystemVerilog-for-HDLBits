@@ -2,7 +2,7 @@ module top_module(
     input logic clk,
     input logic in,
     input logic reset,
-    output logic out); 
+    output logic out ); 
 
     // State transition logic
     typedef enum logic [1:0] {A=2'd0, B=2'd1, C=2'd2, D=2'd3} state_def;
