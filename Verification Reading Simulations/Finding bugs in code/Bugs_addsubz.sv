@@ -4,7 +4,7 @@ module top_module (
     input logic [7:0] b,
     output logic [7:0] out,
     output logic result_is_zero
-);//
+);
 
     always_comb begin
         case (do_sub)
